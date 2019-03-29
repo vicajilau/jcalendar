@@ -5,6 +5,11 @@ JCalendar is a Java date chooser bean for graphically picking a date. JCalendar 
 
 This is a fork of the archived JCalendar project developed by [toedter](https://github.com/toedter/jcalendar) which stopped being maintained. Now JCalendar supports new technologies introduced from Java 8.
 
+## Start using JCalendar 
+To start using JCalendar in your own project, the first thing you should do is:
+* Download the JCalendar.jar file available in the root directory of this repository.
+* Import the external jar to your project. Depending on the IDE, the import process may change (Check the web about how to import external jars in your specific IDE)
+
 ### License
 
 JCalendar is available as open source under the terms of the LGPL v2.1
