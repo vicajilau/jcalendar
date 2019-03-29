@@ -1,12 +1,10 @@
-= JCalendar
-
-This is my "old" JCalendar, a Java date picker based on Swing.
-You find more detailed information at http://toedter.com/jcalendar/
+# JCalendar
+JCalendar is a Java date chooser bean for graphically picking a date. JCalendar is composed of several other Java beans, a JDayChooser, a JMonthChooser and a JYearChooser. All these beans have a locale property, provide several icons (Color 16×16, Color 32×32, Mono 16×16 and Mono 32×32) and their own locale property editor. So they can easily be used in GUI builders. Also part of the package is a JDateChooser, a bean composed of an IDateEditor (for direct date editing) and a button for opening a JCalendar for selecting the date.
 
 image:jcalendar.png[Screenshot]
 
-This project will not be updated anymore but might be still useful.
+This is a fork of the archived JCalendar project developed by [toedter](https://github.com/toedter/jcalendar) which stopped being maintained. Now JCalendar supports new technologies introduced from Java 8.
 
-== License
+### License
 
-LGPL v2.1, see https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html
+JCalendar is available as open source under the terms of the LGPL v2.1
