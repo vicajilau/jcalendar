@@ -156,7 +156,7 @@ public class JSpinField extends JPanel implements ChangeListener, CaretListener,
 
 		if (updateTextField) {
 			textField.setText(Integer.toString(value));
-			textField.setForeground(Color.black);
+			textField.setForeground(UIManager.getColor("TextField.foreground"));
 		}
 
 		if (firePropertyChange) {

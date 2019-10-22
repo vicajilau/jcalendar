@@ -188,7 +188,7 @@ public class JTextFieldDateEditor extends JFormattedTextField implements IDateEd
 			}
 		}
 		if (date != null && dateUtil.checkDate(date)) {
-			setForeground(Color.BLACK);
+			setForeground(UIManager.getColor("TextField.foreground"));
 
 		}
 
@@ -267,7 +267,7 @@ public class JTextFieldDateEditor extends JFormattedTextField implements IDateEd
 		String emptyMask = maskPattern.replace('#', placeholder);
 
 		if (text.length() == 0 || text.equals(emptyMask)) {
-			setForeground(Color.BLACK);
+			setForeground(UIManager.getColor("TextField.foreground"));
 			return;
 		}
 
